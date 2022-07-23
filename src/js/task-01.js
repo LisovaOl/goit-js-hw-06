@@ -11,7 +11,7 @@ console.log(`Number of categories: ${itemEl.length}`);
 const animalsItem = categoryEl.childNodes[1];
 // console.log(animalsItem);
 const animalsH2 = animalsItem.querySelector("h2");
-// console.log(animalsH2.innerHTML); // products
+// console.log(animalsH2.innerHTML); // animals
 const animalsUl = animalsItem.querySelector("ul");
 // console.log(animalsUl); // ul
 
