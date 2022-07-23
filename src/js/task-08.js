@@ -1,9 +1,9 @@
-const form = document.querySelector(".login-form");
+const formEl = document.querySelector(".login-form");
 
-form.addEventListener("submit", handleSubmit);
+formEl.addEventListener("submit", handleSubmit);
 
 function handleSubmit(event) {
-  event.preventDefault();
+  event.preventDefault(); //сторінка не повинна перезавантажуватися
   const {
     elements: { email, password },
   } = event.currentTarget;
@@ -13,7 +13,7 @@ function handleSubmit(event) {
   }
 
   console.log(`Email: ${email.value}, Password: ${password.value}`);
-  event.currentTarget.reset();
+  event.currentTarget.reset(); //очисти значення полів форми
 }
     // Обробка відправлення форми form.login-form повинна відбуватися відповідно до події submit.
     // Під час відправлення форми сторінка не повинна перезавантажуватися.

@@ -8,8 +8,8 @@ const valueEl = document.querySelector('#value');
 // console.log(valueEl);
 
 const plusOne = () => {
-    counterValue += 1;
-    valueEl.textContent = counterValue;
+  counterValue += 1;
+  valueEl.textContent = counterValue;
 };
 const minusOne = () => {
   counterValue -= 1;
