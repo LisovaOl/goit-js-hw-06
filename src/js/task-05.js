@@ -1,7 +1,7 @@
 const nameInputEl = document.querySelector("#name-input");
-console.log(nameInputEl);
+// console.log(nameInputEl);
 const nameOutputEl = document.querySelector("#name-output");
-console.log(nameOutputEl);
+// console.log(nameOutputEl);
 
 nameInputEl.addEventListener("input", (event) => {
   const textInput = event.currentTarget.value;

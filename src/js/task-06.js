@@ -1,9 +1,9 @@
 const inputEl = document.querySelector("#validation-input");
-console.log(inputEl)
+// console.log(inputEl)
 
 
 const inputLength = inputEl.getAttribute('data-length')
-console.log(inputLength);
+// console.log(inputLength);
 
 
 inputEl.addEventListener("blur", onInputBlur);
@@ -16,7 +16,7 @@ function onInputBlur(event) {
 
     } 
 
-}
+};
 
 
 // Напиши скрипт, який під час втрати фокусу на інпуті (подія blur), перевіряє його вміст щодо правильної кількості введених символів.
