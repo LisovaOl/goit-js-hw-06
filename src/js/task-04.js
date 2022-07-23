@@ -4,7 +4,7 @@ const incrementBtn = document.querySelector('[data-action="increment"]');
 // console.log(incrementBtn);
 const decrementBtn = document.querySelector('[data-action="decrement"]');
 // console.log(decrementBtn);
-const valueEl = document.querySelector('#value');
+const valueEl = document.querySelector("#value");
 // console.log(valueEl);
 
 const plusOne = () => {
@@ -17,9 +17,6 @@ const minusOne = () => {
 };
 decrementBtn.addEventListener("click", minusOne);
 incrementBtn.addEventListener("click", plusOne);
-
-
-
 
 // Лічильник складається зі спану і кнопок, які по кліку повинні збільшувати і зменшувати його значення на одиницю.
 

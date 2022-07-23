@@ -1,23 +1,18 @@
 const inputEl = document.querySelector("#validation-input");
 // console.log(inputEl)
 
-
-const inputLength = inputEl.getAttribute('data-length')
+const inputLength = inputEl.getAttribute("data-length");
 // console.log(inputLength);
-
 
 inputEl.addEventListener("blur", onInputBlur);
 
 function onInputBlur(event) {
-    this.classList.add("invalid");
-    if (event.target.value.length === Number(inputLength)) {
-        this.classList.remove("invalid");     
-        this.classList.add("valid");
-
-    } 
-
-};
-
+  this.classList.add("invalid");
+  if (event.target.value.length === Number(inputLength)) {
+    this.classList.remove("invalid");
+    this.classList.add("valid");
+  }
+}
 
 // Напиши скрипт, який під час втрати фокусу на інпуті (подія blur), перевіряє його вміст щодо правильної кількості введених символів.
 

@@ -3,45 +3,21 @@ console.log(categoryEl);
 const itemEl = categoryEl.querySelectorAll(".item ul");
 console.log(`Number of categories: ${itemEl.length}`);
 
-
-const titleEl = categoryEl.getElementsByTagName('h2');
-const lengthEl = categoryEl.querySelectorAll('.item > ul');
+const titleEl = categoryEl.getElementsByTagName("h2");
+const lengthEl = categoryEl.querySelectorAll(".item > ul");
 
 console.log(
-`Category: ${titleEl[0].innerText} 
+  `Category: ${titleEl[0].innerText} 
 Elements: ${lengthEl[0].children.length}`
 );
 console.log(
-`Category: ${titleEl[1].innerText}
+  `Category: ${titleEl[1].innerText}
 Elements: ${lengthEl[1].children.length}`
 );
 console.log(
-`Category: ${titleEl[2].innerText}
+  `Category: ${titleEl[2].innerText}
 Elements: ${lengthEl[2].children.length}`
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ------ Task 1 ---------
 // const categoryEl = document.querySelector("#categories");
