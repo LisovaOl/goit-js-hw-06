@@ -7,6 +7,7 @@ const btnChangeColor = widgetEl.querySelector(".change-color");
 
 btnChangeColor.addEventListener("click", () => {
   colorEl.textContent = getRandomHexColor();
+  
   const bgColor = colorEl.textContent;
 
   document.body.style.backgroundColor = bgColor;
